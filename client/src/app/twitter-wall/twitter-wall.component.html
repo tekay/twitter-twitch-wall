@@ -1,0 +1,9 @@
+<mat-card class="tweet-card" *ngFor="let tweet of this.displayedTweets">
+  <mat-card-header>
+    <mat-card-title>{{tweet.name}}</mat-card-title>
+    <mat-card-subtitle>{{tweet.time}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    {{tweet.text}}
+  </mat-card-content>
+</mat-card>
